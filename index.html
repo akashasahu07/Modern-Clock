@@ -1,13 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modern Clock</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div class="grid-background"></div>
+
+    <h1>Clock</h1>
+
+    <div class="clock-wrapper">
+        <div class="clock-container">
+            <div id="clock"></div>
+            <div class="accent-line"></div>
+        </div>
+
+        <div class="info-panel">
+            <div class="date-section">
+                <div class="date-label">Today</div>
+                <div class="date-value" id="date"></div>
+            </div>
+            <div class="timezone-section">
+                <div class="timezone-label">Timezone</div>
+                <div class="timezone-value" id="timezone"></div>
+            </div>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
+
 </html>
